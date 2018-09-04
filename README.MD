@@ -1,0 +1,1 @@
+This is the first assignment in The Odin Project to build "Google Homepage".
