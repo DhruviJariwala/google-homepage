@@ -20,12 +20,35 @@ img{
 }
 
 .form{
-    border: 1px solid #EBEBEB;
+    border: 1px solid #ebebeb;
     width: 560px;
     border-radius: 2px;
     position: absolute;
     top: 317px;
     left: 354px;
+}
+
+.search-buttons{
+    position: absolute;
+    top: 375px;
+    left: 475px;
+}
+
+.buttons{
+    height: 36px;
+    line-height: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+    cursor: default;
+    color: #757575;
+    border: 1px solid #f2f2f2;
+    background-color: #f2f2f2;
+    border-radius: 2px;
 }
 
 .search-box{
