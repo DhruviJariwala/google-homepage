@@ -13,10 +13,19 @@ img{
     width: 272px;
 }
 
+.logo{
+    position: absolute;
+    top: 200px;
+    left: 487px;
+}
+
 .form{
     border: 1px solid #EBEBEB;
     width: 560px;
     border-radius: 2px;
+    position: absolute;
+    top: 317px;
+    left: 354px;
 }
 
 .search-box{
@@ -30,6 +39,7 @@ img{
     font-weight: 400;
     cursor: text;
     padding: 5px 8px 0 16px;
+    border-radius: 2px;
 }
 
 .button{
