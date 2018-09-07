@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    position: relative;
+}
+
+
+img{
+    height: 92px;
+    width: 272px;
+}
+
+.form{
+    border: 1px solid #EBEBEB;
+    width: 560px;
+    border-radius: 2px;
+}
+
+.search-box{
+    font: 16px arial;
+    line-height: 34px;
+    height: 34px;
+    width: 484px;
+    border: none;
+    outline: none;
+    letter-spacing: normal;
+    font-weight: 400;
+    cursor: text;
+    padding: 5px 8px 0 16px;
+}
+
+.button{
+    cursor: pointer;
+    background:url("images/search-by-voice.png");
+    width: 24px;
+    height: 24px;
+    background-size: 24px;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    border: none;
+    padding: 15px 8px;
+}
