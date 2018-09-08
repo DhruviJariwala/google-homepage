@@ -1,37 +1,70 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-.body{
-    position: relative;
+.logo{
+    padding-top: 109px;
+    margin-top: 89px;
+    height: 233px;
+    text-align: center;
 }
-
 
 img{
     height: 92px;
     width: 272px;
 }
 
-.logo{
-    position: absolute;
-    top: 200px;
-    left: 487px;
+.form{
+    position: relative;
+    margin: 0 auto;
+    padding-left: 12px;
+    padding-top: 6px;
+    width: 484px;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    z-index: 3;
+    height: 44px;
 }
 
-.form{
-    border: 1px solid #ebebeb;
-    width: 539px;
-    border-radius: 2px;
-    position: absolute;
-    top: 317px;
-    left: 354px;
+.box{
+    padding: 5px 8px 0 16px;
+    height: 39px;
+}
+.search-box{
+    font-size: 16px;
+    width: 435px;
+    border: none;
+    outline: none;
+    letter-spacing: normal;
+    font-weight: 400;
+    cursor: text;
+    line-height: 34px;
+    margin-top: -5px;
+    margin-left: -16px;
+}
+
+.button{
+    background:url("images/search-by-voice.png");
+    width: 24px;
+    height: 24px;
+    background-size: 24px;
+    vertical-align: middle;
+    border: 0;
+    cursor: pointer;
+    padding: 0 8px;
+    margin-top: -60px;
+    margin-left: 420px;
 }
 
 .search-buttons{
-    position: absolute;
-    top: 375px;
-    left: 475px;
+   height: 58px;
+   padding-top: 18px;
+   position: absolute;
+   top: 45px;
+   left: 100px;
+   width: 487px;
 }
 
 .buttons{
@@ -51,28 +84,3 @@ img{
     border-radius: 2px;
 }
 
-.search-box{
-    font: 16px arial;
-    line-height: 34px;
-    height: 34px;
-    width: 484px;
-    border: none;
-    outline: none;
-    letter-spacing: normal;
-    font-weight: 400;
-    cursor: text;
-    padding: 5px 8px 0 16px;
-    border-radius: 2px;
-}
-
-.button{
-    cursor: pointer;
-    background:url("images/search-by-voice.png");
-    width: 24px;
-    height: 24px;
-    background-size: 24px;
-    vertical-align: middle;
-    background-repeat: no-repeat;
-    border: none;
-    padding: 15px 8px;
-}
