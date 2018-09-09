@@ -84,3 +84,8 @@ img{
     border-radius: 2px;
 }
 
+.left-side ul{
+    display: inline;
+    text-decoration: none;
+    
+}
