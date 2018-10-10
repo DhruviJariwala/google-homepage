@@ -87,12 +87,20 @@ img{
 .left-side ul li{
     display: inline-block;
     margin: 7px 0 0 10px;
+    padding-top: 15px;
 }
 
 .left-side ul li a{
-    color: #222;
+    color: #3c4349;
     padding-left: 15px;
-    font-size: 13px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.right-side{
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
 .right-side ul{
