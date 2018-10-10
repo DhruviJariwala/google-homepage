@@ -84,8 +84,33 @@ img{
     border-radius: 2px;
 }
 
-.left-side ul{
-    display: inline;
-    text-decoration: none;
-    
+.left-side ul li{
+    display: inline-block;
+    margin: 7px 0 0 10px;
+}
+
+.left-side ul li a{
+    color: #222;
+    padding-left: 15px;
+    font-size: 13px;
+}
+
+.right-side ul{
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.right-side ul li{
+    display: inline-block;
+}
+
+.right-side li img{
+    height: 30px;
+    width: 30px;
+    margin-left: 15px;
+}
+
+.right-side .right-nav{
+    padding-left: 15px;
 }
