@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 13px;
+    font-family: sans-serif;
 }
 
 .logo{
@@ -121,4 +123,46 @@ img{
 
 .right-side .right-nav{
     padding-left: 15px;
+}
+
+a, .footer a{
+    text-decoration: none;
+    color: #494949;
+}
+
+.footer a{
+    color: #66667D;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #E4E4E4;
+    background: #F2F2F2;
+}
+
+.right-footer-ul{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    line-height: 40px;
+    margin-right: 30px;
+}
+
+.left-footer-ul{
+    line-height: 40px;
+}
+
+.footer li{
+    padding-left: 27px;
 }
