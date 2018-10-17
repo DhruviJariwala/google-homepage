@@ -8,7 +8,7 @@
 
 .logo{
     padding-top: 109px;
-    margin-top: 89px;
+    margin-top: 35px;
     height: 233px;
     text-align: center;
 }
@@ -86,45 +86,6 @@ img{
     border-radius: 2px;
 }
 
-.left-side ul li{
-    display: inline-block;
-    margin: 7px 0 0 10px;
-    padding-top: 15px;
-}
-
-.left-side ul li a{
-    color: #3c4349;
-    padding-left: 15px;
-    font-size: 15px;
-    text-decoration: none;
-}
-
-.right-side{
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-
-.right-side ul{
-    padding-left: 30px;
-    padding-right: 30px;
-
-}
-
-.right-side ul li{
-    display: inline-block;
-}
-
-.right-side li img{
-    height: 30px;
-    width: 30px;
-    margin-left: 15px;
-}
-
-.right-side .right-nav{
-    padding-left: 15px;
-}
-
 a, .footer a{
     text-decoration: none;
     color: #494949;
@@ -141,6 +102,39 @@ a:hover{
 li{
     list-style: none;
     display: inline-block;
+}
+
+.left-side-ul li{
+    padding-left: 15px;
+}
+
+.right-side-ul li{
+    margin-left: 15px;
+}
+
+.right-side-ul{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-left: 10px;
+    margin-top: 5px;
+    padding-left: 30px;
+    padding-right: 5px;
+}
+
+.left-side-ul{
+    margin-left: 10px;
+    margin-top: 23px;
+}
+
+.right-side li img{
+    height: 30px;
+    width: 30px;
+}
+
+.right-ul img{
+    position: relative;
+    top: 10px;
 }
 
 .footer{
