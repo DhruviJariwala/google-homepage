@@ -69,6 +69,11 @@ img{
    width: 487px;
 }
 
+.buttons:hover{
+    border: 1px solid #CFCFCF;
+    color: #000;
+}
+
 .buttons{
     height: 36px;
     line-height: 27px;
